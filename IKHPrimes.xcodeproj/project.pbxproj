@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4416B51BAF586E00F7F7F2 /* IKHAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416911BAF586E00F7F7F2 /* IKHAction.m */; };
+		CB4416B61BAF586E00F7F7F2 /* IKHLightSieveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416941BAF586E00F7F7F2 /* IKHLightSieveOperation.m */; };
+		CB4416B71BAF586E00F7F7F2 /* IKHSieveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416961BAF586E00F7F7F2 /* IKHSieveOperation.m */; };
+		CB4416B81BAF586E00F7F7F2 /* IKHSieve.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416981BAF586E00F7F7F2 /* IKHSieve.m */; };
+		CB4416B91BAF586E00F7F7F2 /* IKHCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB44169B1BAF586E00F7F7F2 /* IKHCacheManager.m */; };
+		CB4416BA1BAF586E00F7F7F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB44169E1BAF586E00F7F7F2 /* AppDelegate.m */; };
+		CB4416BB1BAF586E00F7F7F2 /* IKHStorageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416A11BAF586E00F7F7F2 /* IKHStorageHelper.m */; };
+		CB4416BC1BAF586E00F7F7F2 /* IKHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416A31BAF586E00F7F7F2 /* IKHUtils.m */; };
+		CB4416BD1BAF586E00F7F7F2 /* IKHHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416A61BAF586E00F7F7F2 /* IKHHistoryVC.m */; };
+		CB4416BE1BAF586E00F7F7F2 /* IKHHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4416A71BAF586E00F7F7F2 /* IKHHistoryVC.xib */; };
+		CB4416BF1BAF586E00F7F7F2 /* IKHPrimesGenerateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416A91BAF586E00F7F7F2 /* IKHPrimesGenerateVC.m */; };
+		CB4416C01BAF586E00F7F7F2 /* IKHPrimesGenerateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4416AA1BAF586E00F7F7F2 /* IKHPrimesGenerateVC.xib */; };
+		CB4416C21BAF586E00F7F7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4416AD1BAF586E00F7F7F2 /* main.m */; };
+		CB4416C41BAF586E00F7F7F2 /* IKHPrimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB4416B21BAF586E00F7F7F2 /* IKHPrimes.xcdatamodeld */; };
+		CB4416C51BAF586E00F7F7F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4416B41BAF586E00F7F7F2 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3393861BAB1AA2002E291E /* IKHPrimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKHPrimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4416901BAF586E00F7F7F2 /* IKHAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHAction.h; sourceTree = "<group>"; };
+		CB4416911BAF586E00F7F7F2 /* IKHAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHAction.m; sourceTree = "<group>"; };
+		CB4416931BAF586E00F7F7F2 /* IKHLightSieveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHLightSieveOperation.h; sourceTree = "<group>"; };
+		CB4416941BAF586E00F7F7F2 /* IKHLightSieveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHLightSieveOperation.m; sourceTree = "<group>"; };
+		CB4416951BAF586E00F7F7F2 /* IKHSieveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHSieveOperation.h; sourceTree = "<group>"; };
+		CB4416961BAF586E00F7F7F2 /* IKHSieveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHSieveOperation.m; sourceTree = "<group>"; };
+		CB4416971BAF586E00F7F7F2 /* IKHSieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHSieve.h; sourceTree = "<group>"; };
+		CB4416981BAF586E00F7F7F2 /* IKHSieve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHSieve.m; sourceTree = "<group>"; };
+		CB44169A1BAF586E00F7F7F2 /* IKHCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHCacheManager.h; sourceTree = "<group>"; };
+		CB44169B1BAF586E00F7F7F2 /* IKHCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHCacheManager.m; sourceTree = "<group>"; };
+		CB44169D1BAF586E00F7F7F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB44169E1BAF586E00F7F7F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB4416A01BAF586E00F7F7F2 /* IKHStorageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHStorageHelper.h; sourceTree = "<group>"; };
+		CB4416A11BAF586E00F7F7F2 /* IKHStorageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHStorageHelper.m; sourceTree = "<group>"; };
+		CB4416A21BAF586E00F7F7F2 /* IKHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHUtils.h; sourceTree = "<group>"; };
+		CB4416A31BAF586E00F7F7F2 /* IKHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHUtils.m; sourceTree = "<group>"; };
+		CB4416A51BAF586E00F7F7F2 /* IKHHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHHistoryVC.h; sourceTree = "<group>"; };
+		CB4416A61BAF586E00F7F7F2 /* IKHHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHHistoryVC.m; sourceTree = "<group>"; };
+		CB4416A71BAF586E00F7F7F2 /* IKHHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IKHHistoryVC.xib; sourceTree = "<group>"; };
+		CB4416A81BAF586E00F7F7F2 /* IKHPrimesGenerateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHPrimesGenerateVC.h; sourceTree = "<group>"; };
+		CB4416A91BAF586E00F7F7F2 /* IKHPrimesGenerateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHPrimesGenerateVC.m; sourceTree = "<group>"; };
+		CB4416AA1BAF586E00F7F7F2 /* IKHPrimesGenerateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IKHPrimesGenerateVC.xib; sourceTree = "<group>"; };
+		CB4416AC1BAF586E00F7F7F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4416AD1BAF586E00F7F7F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB4416B01BAF586E00F7F7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB4416B31BAF586E00F7F7F2 /* IKHPrimes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IKHPrimes.xcdatamodel; sourceTree = "<group>"; };
+		CB4416B41BAF586E00F7F7F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3393831BAB1AA2002E291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB33937D1BAB1AA2002E291E = {
+			isa = PBXGroup;
+			children = (
+				CB44168E1BAF586E00F7F7F2 /* Classes */,
+				CB4416AB1BAF586E00F7F7F2 /* Other */,
+				CB4416AE1BAF586E00F7F7F2 /* Resources */,
+				CB3393871BAB1AA2002E291E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3393871BAB1AA2002E291E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3393861BAB1AA2002E291E /* IKHPrimes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB44168E1BAF586E00F7F7F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB44168F1BAF586E00F7F7F2 /* DataModel */,
+				CB4416991BAF586E00F7F7F2 /* Managers */,
+				CB44169C1BAF586E00F7F7F2 /* Other */,
+				CB44169F1BAF586E00F7F7F2 /* Utils */,
+				CB4416A41BAF586E00F7F7F2 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB44168F1BAF586E00F7F7F2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416901BAF586E00F7F7F2 /* IKHAction.h */,
+				CB4416911BAF586E00F7F7F2 /* IKHAction.m */,
+				CB4416921BAF586E00F7F7F2 /* IKHOperations */,
+				CB4416971BAF586E00F7F7F2 /* IKHSieve.h */,
+				CB4416981BAF586E00F7F7F2 /* IKHSieve.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CB4416921BAF586E00F7F7F2 /* IKHOperations */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416931BAF586E00F7F7F2 /* IKHLightSieveOperation.h */,
+				CB4416941BAF586E00F7F7F2 /* IKHLightSieveOperation.m */,
+				CB4416951BAF586E00F7F7F2 /* IKHSieveOperation.h */,
+				CB4416961BAF586E00F7F7F2 /* IKHSieveOperation.m */,
+			);
+			path = IKHOperations;
+			sourceTree = "<group>";
+		};
+		CB4416991BAF586E00F7F7F2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CB44169A1BAF586E00F7F7F2 /* IKHCacheManager.h */,
+				CB44169B1BAF586E00F7F7F2 /* IKHCacheManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CB44169C1BAF586E00F7F7F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CB44169D1BAF586E00F7F7F2 /* AppDelegate.h */,
+				CB44169E1BAF586E00F7F7F2 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CB44169F1BAF586E00F7F7F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416A01BAF586E00F7F7F2 /* IKHStorageHelper.h */,
+				CB4416A11BAF586E00F7F7F2 /* IKHStorageHelper.m */,
+				CB4416A21BAF586E00F7F7F2 /* IKHUtils.h */,
+				CB4416A31BAF586E00F7F7F2 /* IKHUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CB4416A41BAF586E00F7F7F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416A51BAF586E00F7F7F2 /* IKHHistoryVC.h */,
+				CB4416A61BAF586E00F7F7F2 /* IKHHistoryVC.m */,
+				CB4416A71BAF586E00F7F7F2 /* IKHHistoryVC.xib */,
+				CB4416A81BAF586E00F7F7F2 /* IKHPrimesGenerateVC.h */,
+				CB4416A91BAF586E00F7F7F2 /* IKHPrimesGenerateVC.m */,
+				CB4416AA1BAF586E00F7F7F2 /* IKHPrimesGenerateVC.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB4416AB1BAF586E00F7F7F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416AC1BAF586E00F7F7F2 /* Info.plist */,
+				CB4416AD1BAF586E00F7F7F2 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CB4416AE1BAF586E00F7F7F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416AF1BAF586E00F7F7F2 /* LaunchScreen.xib */,
+				CB4416B11BAF586E00F7F7F2 /* DataStorage */,
+				CB4416B41BAF586E00F7F7F2 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB4416B11BAF586E00F7F7F2 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CB4416B21BAF586E00F7F7F2 /* IKHPrimes.xcdatamodeld */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3393851BAB1AA2002E291E /* IKHPrimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3393AC1BAB1AA2002E291E /* Build configuration list for PBXNativeTarget "IKHPrimes" */;
+			buildPhases = (
+				CB3393821BAB1AA2002E291E /* Sources */,
+				CB3393831BAB1AA2002E291E /* Frameworks */,
+				CB3393841BAB1AA2002E291E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKHPrimes;
+			productName = IKHPrimes;
+			productReference = CB3393861BAB1AA2002E291E /* IKHPrimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB33937E1BAB1AA2002E291E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Khmara;
+				TargetAttributes = {
+					CB3393851BAB1AA2002E291E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CB3393811BAB1AA2002E291E /* Build configuration list for PBXProject "IKHPrimes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB33937D1BAB1AA2002E291E;
+			productRefGroup = CB3393871BAB1AA2002E291E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3393851BAB1AA2002E291E /* IKHPrimes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3393841BAB1AA2002E291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4416C51BAF586E00F7F7F2 /* Images.xcassets in Resources */,
+				CB4416C01BAF586E00F7F7F2 /* IKHPrimesGenerateVC.xib in Resources */,
+				CB4416BE1BAF586E00F7F7F2 /* IKHHistoryVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3393821BAB1AA2002E291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4416BF1BAF586E00F7F7F2 /* IKHPrimesGenerateVC.m in Sources */,
+				CB4416B71BAF586E00F7F7F2 /* IKHSieveOperation.m in Sources */,
+				CB4416C41BAF586E00F7F7F2 /* IKHPrimes.xcdatamodeld in Sources */,
+				CB4416B81BAF586E00F7F7F2 /* IKHSieve.m in Sources */,
+				CB4416BC1BAF586E00F7F7F2 /* IKHUtils.m in Sources */,
+				CB4416BA1BAF586E00F7F7F2 /* AppDelegate.m in Sources */,
+				CB4416BD1BAF586E00F7F7F2 /* IKHHistoryVC.m in Sources */,
+				CB4416B61BAF586E00F7F7F2 /* IKHLightSieveOperation.m in Sources */,
+				CB4416B91BAF586E00F7F7F2 /* IKHCacheManager.m in Sources */,
+				CB4416BB1BAF586E00F7F7F2 /* IKHStorageHelper.m in Sources */,
+				CB4416C21BAF586E00F7F7F2 /* main.m in Sources */,
+				CB4416B51BAF586E00F7F7F2 /* IKHAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB4416AF1BAF586E00F7F7F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4416B01BAF586E00F7F7F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3393AA1BAB1AA2002E291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3393AB1BAB1AA2002E291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3393AD1BAB1AA2002E291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB3393AE1BAB1AA2002E291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3393811BAB1AA2002E291E /* Build configuration list for PBXProject "IKHPrimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3393AA1BAB1AA2002E291E /* Debug */,
+				CB3393AB1BAB1AA2002E291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3393AC1BAB1AA2002E291E /* Build configuration list for PBXNativeTarget "IKHPrimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3393AD1BAB1AA2002E291E /* Debug */,
+				CB3393AE1BAB1AA2002E291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB4416B21BAF586E00F7F7F2 /* IKHPrimes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB4416B31BAF586E00F7F7F2 /* IKHPrimes.xcdatamodel */,
+			);
+			currentVersion = CB4416B31BAF586E00F7F7F2 /* IKHPrimes.xcdatamodel */;
+			path = IKHPrimes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB33937E1BAB1AA2002E291E /* Project object */;
+}
